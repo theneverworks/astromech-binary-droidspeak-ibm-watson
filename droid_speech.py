@@ -219,8 +219,8 @@ def askagent(testutterance):
 
 def handle_command(intent, entity, entitydetail, replystring):
     response = ""
-    if (intent == 'print_status'):
-        response += "Printer interface is not connected."
+    if (intent == 'uncertain'):
+        response += "I do not know what you sad."
     else:
         response = replystring.replace('\r\n','').replace('\n','').replace('\\n','').replace('\\r\\n','').replace('\r','')
     if response == "":
