@@ -34,6 +34,10 @@ https://pypi.org/project/ibm-watson/
 ## Install Sounddevice
 https://pypi.org/project/sounddevice/ 
 
+## Install Winsound
+Built in.
+https://docs.python.org/3/library/winsound.html
+
 # Edits
 ## droid_speech.py
 You must enter your IBM Watson API (IAM) information in the following lines. 
