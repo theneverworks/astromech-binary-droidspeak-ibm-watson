@@ -54,7 +54,7 @@ You must enter your IBM Watson API (IAM) information in the following lines.
 
 `ttsservice.set_service_url('SPEECH_TO_TEXT_SERVICE_URL')`
 
-`speech_key, service_region = "<SPEECH_TO_TEXT_API_KEY>", "centralus"`
+`speech_key, service_region = "<SPEECH_TO_TEXT_API_KEY>", "<DATACENTER>"`
 
 You must select which droid keyword you want. (R2, BB8, etc.) 
 
